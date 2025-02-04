@@ -1,0 +1,51 @@
+title		= Simulated Annealing 
+; Run parameters
+integrator	= md		; leap-frog integrator
+dt		    = 0.002		; 2 fs
+nsteps		= 1000000	; 1 ns
+; Bond parameters
+continuation	= yes		    
+constraints	= none	        
+constraint-algorithm = lincs	; holonomic constraints
+lincs-iter	= 1		            ; accuracy of LINCS
+lincs-order	= 4		            ; also related to accuracy
+; Output control
+nstxout		= 10000		; save coordinates every 10 ps
+nstvout		= 10000 		; save velocities every 10 ps
+nstfout		= 10000		; save forces every 10 ps
+nstenergy	= 10000		; save energies every 10 ps
+; Neighborsearching
+cutoff-scheme    = Verlet
+nstlist		= 10		    ; 20 fs
+ns_type		= grid 		; search neighboring grid cells
+rlist		= 1.0		; short-range neighborlist cutoff (nm)
+rcoulomb 	= 1.0		; short-range electrostatic cutoff (nm)
+rvdw		= 1.0		; short-range van der Waals
+DispCorr         = EnerPres  ; account for cut-off vdW scheme cutoff (nm)
+; Electrostatics
+coulombtype             = PME
+pme_order               = 4         ; cubic interpolation
+fourierspacing          = 0.16      ; grid spacing for FFT
+verlet-buffer-tolerance = 0.001
+; Temperature coupling is on in three groups
+tcoupl                   = v-rescale
+tc-grps                  = system
+tau_t                    = 1      
+ref_t                    = 300
+; Pressure coupling
+pcoupl                  = c-rescale    ; Pressure coupling on in NPT
+pcoupltype              = isotropic             ; uniform scaling of box vectors
+tau_p                   = 2.0                   ; time constant, in ps
+ref_p                   = 1.0                   ; reference pressure, in bar
+compressibility         = 4.5e-5                ; isothermal compressibility of water, bar^-1
+refcoord_scaling        = com
+; Generate velocities is off
+gen_vel		= no			; Velocity generation is off
+; Periodic boundary conditions are on in all directions
+pbc		    = xyz			; 3-D PBC
+; Simulated annealing
+; SIMULATED ANNEALING 
+annealing                = single                   ; Type of annealing for each temperature group (no/single/periodic) 
+annealing-npoints        = 11                        ; Number of time points to use for specifying annealing in each group 
+annealing-time           = 0 100 200 300 400 500 600 700 800 900 1000
+annealing-temp           = 300 350 400 450 500 550 600 500 450 350 300

@@ -1,0 +1,154 @@
+[ mapping ]
+   ZZ   opls_145 
+   C26   opls_145 
+   C27   opls_145 
+   C28   opls_145 
+   C29   opls_145 
+   C30   opls_145 
+   S3   opls_493 
+   C31   opls_145 
+   O8   opls_494 
+   O9   opls_494 
+   C32   opls_145 
+   C33   opls_145 
+   C34   opls_220 
+   C35   opls_145 
+   C36   opls_145 
+   AA   opls_154 
+   H18   opls_146 
+   H19   opls_146 
+   H20   opls_146 
+   H21   opls_146 
+   H22   opls_146 
+   H23   opls_146 
+   H24   opls_146 
+   H25   opls_146 
+   H26   opls_155 
+[ bonds ]
+   ZZ   C26        b55  
+   ZZ   C30        b56  
+   C26   C27        b57  
+   C26   H18        b58  
+   C27   C28        b59  
+   C27   H19        b60  
+   C28   C29        b61  
+   C28   S3         b62  
+   C29   C30        b63  
+   C29   H20        b64  
+   C30   H21        b65  
+   S3    C31        b66  
+   S3    O8         b67  
+   S3    O9         b68  
+   C31   C32        b69  
+   C31   C36        b70  
+   C32   C33        b71  
+   C32   H22        b72  
+   C33   C34        b73  
+   C33   H23        b74  
+   C34   C35        b75  
+   C34   AA        b76  
+   C35   C36        b77  
+   C35   H24        b78  
+   C36   H25        b79  
+   AA   H26        b80
+   ZZ    +AA        b54  
+[ angles ]
+   ZZ   C26   C27   a90  
+   ZZ   C26   H18   a91  
+   ZZ   C30   C29   a92  
+   ZZ   C30   H21   a93  
+   C26   ZZ   C30   a94  
+   C26   C27   C28   a95  
+   C26   C27   H19   a96  
+   C27   C26   H18   a97  
+   C27   C28   C29   a98  
+   C27   C28   S3    a99  
+   C28   C27   H19   a100 
+   C28   C29   C30   a101 
+   C28   C29   H20   a102 
+   C28   S3    C31   a103 
+   C28   S3    O8    a104 
+   C28   S3    O9    a105 
+   C29   C28   S3    a106 
+   C29   C30   H21   a107 
+   C30   C29   H20   a108 
+   S3    C31   C32   a109 
+   S3    C31   C36   a110 
+   C31   S3    O8    a111 
+   C31   S3    O9    a112 
+   C31   C32   C33   a113 
+   C31   C32   H22   a114 
+   C31   C36   C35   a115 
+   C31   C36   H25   a116 
+   O8    S3    O9    a117 
+   C32   C31   C36   a118 
+   C32   C33   C34   a119 
+   C32   C33   H23   a120 
+   C33   C32   H22   a121 
+   C33   C34   C35   a122 
+   C33   C34   AA   a123 
+   C34   C33   H23   a124 
+   C34   C35   C36   a125 
+   C34   C35   H24   a126 
+   C34   AA   H26   a127 
+   C35   C34   AA   a128 
+   C35   C36   H25   a129 
+   C36   C35   H24   a130
+   C28   ZZ    +AA   a45 
+[ dihedrals ]
+   C30   ZZ   C26   C27   d99  
+   C30   ZZ   C26   H18   d100 
+   C26   ZZ   C30   C29   d103 
+   C26   ZZ   C30   H21   d104 
+   ZZ   C26   C27   C28   d105 
+   ZZ   C26   C27   H19   d106 
+   H18   C26   C27   C28   d107 
+   H18   C26   C27   H19   d108 
+   C26   C27   C28   C29   d109 
+   C26   C27   C28   S3    d110 
+   H19   C27   C28   C29   d111 
+   H19   C27   C28   S3    d112 
+   C27   C28   C29   C30   d113 
+   C27   C28   C29   H20   d114 
+   S3    C28   C29   C30   d115 
+   S3    C28   C29   H20   d116 
+   C28   C29   C30   ZZ   d117 
+   C28   C29   C30   H21   d118 
+   H20   C29   C30   ZZ   d119 
+   H20   C29   C30   H21   d120 
+   S3    C31   C32   C33   d121 
+   S3    C31   C32   H22   d122 
+   C36   C31   C32   C33   d123 
+   C36   C31   C32   H22   d124 
+   S3    C31   C36   C35   d125 
+   S3    C31   C36   H25   d126 
+   C32   C31   C36   C35   d127 
+   C32   C31   C36   H25   d128 
+   C31   C32   C33   C34   d129 
+   C31   C32   C33   H23   d130 
+   H22   C32   C33   C34   d131 
+   H22   C32   C33   H23   d132 
+   C32   C33   C34   C35   d133 
+   C32   C33   C34   AA   d134 
+   H23   C33   C34   C35   d135 
+   H23   C33   C34   AA   d136 
+   C33   C34   C35   C36   d137 
+   C33   C34   C35   H24   d138 
+   AA   C34   C35   C36   d139 
+   AA   C34   C35   H24   d140 
+   C34   C35   C36   C31   d141 
+   C34   C35   C36   H25   d142 
+   H24   C35   C36   C31   d143 
+   H24   C35   C36   H25   d144 
+   C27   C28   S3    C31   f19  
+   C29   C28   S3    C31   f20  
+   C28   S3    C31   C32   f21  
+   C28   S3    C31   C36   f22  
+   C33   C34   AA   H26   f23  
+   C35   C34   AA   H26   f24
+   C27   C28   ZZ    +AA   d89
+   H18   C28   ZZ    +AA   d87  
+ [ cterminal ]
+   ZZ    opls_145
+[ nterminal ]
+   AA    opls_154

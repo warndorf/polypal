@@ -1,0 +1,162 @@
+[ mapping ]
+   O1   opls_167 
+   ZZ   opls_166 
+   C2   opls_145 
+   C3   opls_145 
+   C4   opls_145 
+   C5   opls_145 
+   C6   opls_145 
+   S1   opls_493 
+   C7   opls_145 
+   O2   opls_494 
+   O3   opls_494 
+   C8   opls_145 
+   C9   opls_145 
+   C10   opls_145 
+   C11   opls_145 
+   C12   opls_145 
+   AA   opls_180 
+   H1   opls_168 
+   H2   opls_146 
+   H3   opls_146 
+   H4   opls_146 
+   H5   opls_146 
+   H6   opls_146 
+   H7   opls_146 
+   H8   opls_146 
+   H9   opls_146 
+[ bonds ]
+   O1    ZZ         b1   
+   O1    H1         b2   
+   ZZ    C2         b3   
+   ZZ    C6         b4   
+   C2    C3         b5   
+   C2    H2         b6   
+   C3    C4         b7   
+   C3    H3         b8   
+   C4    C5         b9   
+   C4    S1         b10  
+   C5    C6         b11  
+   C5    H4         b12  
+   C6    H5         b13  
+   S1    C7         b14  
+   S1    O2         b15  
+   S1    O3         b16  
+   C7    C8         b17  
+   C7    C12        b18  
+   C8    C9         b19  
+   C8    H6         b20  
+   C9    C10        b21  
+   C9    H7         b22  
+   C10   C11        b23  
+   C10   AA         b24  
+   C11   C12        b25  
+   C11   H8         b26  
+   C12   H9         b27
+   ZZ   +AA        b54   
+[ angles ]
+   O1    ZZ    C2    a1   
+   O1    ZZ    C6    a2   
+   ZZ    O1    H1    a3   
+   ZZ    C2    C3    a4   
+   ZZ    C2    H2    a5   
+   ZZ    C6    C5    a6   
+   ZZ    C6    H5    a7   
+   C2    ZZ    C6    a8   
+   C2    C3    C4    a9   
+   C2    C3    H3    a10  
+   C3    C2    H2    a11  
+   C3    C4    C5    a12  
+   C3    C4    S1    a13  
+   C4    C3    H3    a14  
+   C4    C5    C6    a15  
+   C4    C5    H4    a16  
+   C4    S1    C7    a17  
+   C4    S1    O2    a18  
+   C4    S1    O3    a19  
+   C5    C4    S1    a20  
+   C5    C6    H5    a21  
+   C6    C5    H4    a22  
+   S1    C7    C8    a23  
+   S1    C7    C12   a24  
+   C7    S1    O2    a25  
+   C7    S1    O3    a26  
+   C7    C8    C9    a27  
+   C7    C8    H6    a28  
+   C7    C12   C11   a29  
+   C7    C12   H9    a30  
+   O2    S1    O3    a31  
+   C8    C7    C12   a32  
+   C8    C9    C10   a33  
+   C8    C9    H7    a34  
+   C9    C8    H6    a35  
+   C9    C10   C11   a36  
+   C9    C10   AA    a37  
+   C10   C9    H7    a38  
+   C10   C11   C12   a39  
+   C10   C11   H8    a40  
+   C11   C10   AA    a42  
+   C11   C12   H9    a43  
+   C12   C11   H8    a44
+   -ZZ   AA    C10   a51  
+[ dihedrals ]
+   O1    ZZ    C2    C3    d1   
+   O1    ZZ    C2    H2    d2   
+   C6    ZZ    C2    C3    d3   
+   C6    ZZ    C2    H2    d4   
+   O1    ZZ    C6    C5    d5   
+   O1    ZZ    C6    H5    d6   
+   C2    ZZ    C6    C5    d7   
+   C2    ZZ    C6    H5    d8   
+   ZZ    C2    C3    C4    d9   
+   ZZ    C2    C3    H3    d10  
+   H2    C2    C3    C4    d11  
+   H2    C2    C3    H3    d12  
+   C2    C3    C4    C5    d13  
+   C2    C3    C4    S1    d14  
+   H3    C3    C4    C5    d15  
+   H3    C3    C4    S1    d16  
+   C3    C4    C5    C6    d17  
+   C3    C4    C5    H4    d18  
+   S1    C4    C5    C6    d19  
+   S1    C4    C5    H4    d20  
+   C4    C5    C6    ZZ    d21  
+   C4    C5    C6    H5    d22  
+   H4    C5    C6    ZZ    d23  
+   H4    C5    C6    H5    d24  
+   S1    C7    C8    C9    d25  
+   S1    C7    C8    H6    d26  
+   C12   C7    C8    C9    d27  
+   C12   C7    C8    H6    d28  
+   S1    C7    C12   C11   d29  
+   S1    C7    C12   H9    d30  
+   C8    C7    C12   C11   d31  
+   C8    C7    C12   H9    d32  
+   C7    C8    C9    C10   d33  
+   C7    C8    C9    H7    d34  
+   H6    C8    C9    C10   d35  
+   H6    C8    C9    H7    d36  
+   C8    C9    C10   C11   d37  
+   C8    C9    C10   AA    d38  
+   H7    C9    C10   C11   d39  
+   H7    C9    C10   AA    d40  
+   C9    C10   C11   C12   d41  
+   C9    C10   C11   H8    d42  
+   AA    C10   C11   C12   d43  
+   AA    C10   C11   H8    d44  
+   C10   C11   C12   C7    d45  
+   C10   C11   C12   H9    d46  
+   H8    C11   C12   C7    d47  
+   H8    C11   C12   H9    d48  
+   H1    O1    ZZ    C6    f1   
+   H1    O1    ZZ    C2    f2   
+   C3    C4    S1    C7    f3   
+   C5    C4    S1    C7    f4   
+   C4    S1    C7    C8    f5   
+   C4    S1    C7    C12   f6
+   C11   C10   AA    -ZZ   f12
+   C9   C10   AA    -ZZ   f13    
+ [ cterminal ]
+   ZZ    opls_166
+[ nterminal ]
+   AA    opls_180

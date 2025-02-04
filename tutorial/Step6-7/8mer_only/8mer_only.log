@@ -1,0 +1,40 @@
+>                 Assemble v1.0                     <
+> (c) 2014, Matteo Degiacomi and Valentina Erastova <
+
+> loading force field /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_qforce_ff.txt...
+
+> adding residues in database...
+>> loading PDB /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_endAA_assemble.pdb
+>> loading topology /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_endAA_top
+>> loading PDB /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_M_assemble.pdb
+>> loading topology /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_M_top
+>> loading PDB /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_endZZ_assemble.pdb
+>> loading topology /Users/warndorf/Documents/Computational/Coding/codes_01_23_2025/polypal/Tutorial/Step6/PES_endZZ_top
+
+> generating polymer 8mer...
+>> sequence: AMMMMMMZ
+>> mass: 1876.048999999999 Da
+>> writing PDB file 8mer.pdb
+>> writing Gromacs coordinates file 8mer.gro
+>> writing Gromacs topology file 8mer.itp
+>> number of beads  :  195
+>> molecular weight :  1876.048999999999 g/mol
+
+> generating system...
+
+> polymer units in box:
+>> 8mer: 100.0 percent
+
+> polymers fractional weight:
+>> 8mer: 100.0 percent
+
+> monomers distribution in box:
+>> A: 12.5 percent
+>> M: 75.0 percent
+>> Z: 12.5 percent
+
+> number average degree of polymerization: 8.0
+
+> box size:    4.68087 x    2.30779 x    1.56410 nm^3
+
+> All done! Thank you for using Assemble! <

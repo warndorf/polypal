@@ -1,0 +1,27 @@
+; generated with Assemble.py, by Matteo Degiacomi and Valentina Erastova, 2014-2018
+
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+               1               3             yes     0.5     0.5
+
+[ atomtypes ]
+;name   at.num  mass     charge  ptype  sigma     epsilon
+opls_146       1  1.00800   0.115      A2.42000e-01    1.25520e-01
+opls_166       6 12.01100   0.150      A3.55000e-01    2.92880e-01
+opls_180       8 15.99940  -0.400      A2.90000e-01    5.85760e-01
+opls_155       1  1.00800   0.418      A0.00000e+00    0.00000e+00
+opls_168       1  1.00800   0.435      A0.00000e+00    0.00000e+00
+opls_494       8 15.99940  -0.687      A2.96000e-01    7.11280e-01
+opls_154       8 15.99940  -0.683      A3.12000e-01    7.11280e-01
+opls_493      16 32.06000   1.374      A3.55000e-01    1.04600e+00
+opls_167       8 15.99940  -0.585      A3.07000e-01    7.11280e-01
+opls_145       6 12.01100  -0.115      A3.55000e-01    2.92880e-01
+opls_220       6 12.01100   0.320      A3.50000e-01    2.76144e-01
+
+#include "8mer.itp"
+
+[ system ]
+8mer_only
+
+[ molecules ]
+8mer 1
